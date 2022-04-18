@@ -5,9 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Admin Dashboard</title>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <div class="search-bar">
+                    <input type="text" name="search-bar" id="user-search">
+                </div>
+                <div class="search-buttons"></div>
+            </div>
+            <div class="user-interface">
+                <div class="user-info">
+                    <p>Hi there,<br>
+                        <span>Nikos Chatzinikolas(@nxnikolaos)</span>
+                    </p>
+                </div>
+                <div class="user-nav">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h2>Dashboard</h3>
+            <ul>
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Tasks</li>
+                <li>Communities</li>
+            </ul>
+            <ul>
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        <div class="content"></div>
+    </div>
     
 </body>
 </html>
